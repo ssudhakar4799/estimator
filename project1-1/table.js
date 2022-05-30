@@ -141,7 +141,7 @@ function table() {
     //alltotals
 
     function alltotalsvalue() {
-        var currenttotal  =total+total1+total2+total3;
+        var currenttotal  =parseInt(total.value)+parseInt(total1.value)+parseInt(total2.value)+parseInt(total3.value);
 
         console.log(currenttotal);
         document.getElementById('alltotal').value = currenttotal;
